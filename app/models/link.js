@@ -1,4 +1,5 @@
-var db = require('../config');
+// var db = require('../config');
+var mongoose = require('mongoose');
 var crypto = require('crypto');
 
 var Link = db.Model.extend({
